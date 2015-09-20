@@ -34,7 +34,7 @@ public class PersonsServiceTest {
 
     @Test
     public void simple() throws Exception {
-        mockMvc.perform(get("/hello/spring"))
+        mockMvc.perform(get("/hello/persons"))
                 .andExpect(status().isOk());
     }
 }

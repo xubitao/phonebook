@@ -15,4 +15,9 @@ public class PersonsService {
     public String printWelcome() {
         return "hello spring";
     }
+    @ResponseBody
+    @RequestMapping("/persons")
+    public String loadPersons() {
+        return "hello spring";
+    }
 }
