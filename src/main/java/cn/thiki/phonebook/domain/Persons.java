@@ -1,4 +1,4 @@
-package cn.thiki.phonebook;
+package cn.thiki.phonebook.domain;
 
 /**
  * Created by Administrator on 2015/9/5.
